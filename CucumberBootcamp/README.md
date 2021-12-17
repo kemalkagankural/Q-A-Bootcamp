@@ -27,4 +27,4 @@ dynamically image_id and sub_id.)<br/>
 --------------------------------
 # Third step || Üçüncü Adım:<br/>
 Ödevde istenilen üçüncü adımı bu kısımda nasıl yapıldığını görebilirsiniz.(You can see third step in assigment list.)<br/>
-![3](https://user-images.githubusercontent.com/66682123/146584968-41aa267a-b528-46a6-a14a-275687842591.png)
+<br/>![3](https://user-images.githubusercontent.com/66682123/146584968-41aa267a-b528-46a6-a14a-275687842591.png)
