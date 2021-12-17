@@ -1,14 +1,14 @@
-# Ödevde yapılması istenenler:
-1.image_id senaryo taslağından alınacak.
-2.sub_id ler senaryo taslağından alınacak.
-3.Assertion en son vote ettiğim image id benim get edip boyutunu karşılaştırdığım adımda 
+# Ödevde yapılması istenenler:<br/>
+1.image_id senaryo taslağından alınacak.<br/>
+2.sub_id ler senaryo taslağından alınacak.<br/>
+3.Assertion en son vote ettiğim image id benim get edip boyutunu karşılaştırdığım adımda<br/>
 o image id mi var diye bakılacak.
 
 ---------------------------------
-What is required to be done in the assignment:
-1.image_id will be taken from scenario draft.
-2.sub_id will be taken from scenario draft.
-3.Assertion the last image id I voted for is in the step where I get it and compare its size 
+# What is required to be done in the assignment:<br/>
+1.image_id will be taken from scenario draft.<br/>
+2.sub_id will be taken from scenario draft.<br/>
+3.Assertion the last image id I voted for is in the step where I get it and compare its size <br/>
 we'll see if he has an image id.
 
 ----------------------------------
