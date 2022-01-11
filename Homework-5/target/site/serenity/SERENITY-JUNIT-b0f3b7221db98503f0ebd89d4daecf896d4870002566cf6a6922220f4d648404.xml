@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="I as a user want to authenticate in the application to check my credentials" skipped="0" tests="1" time="15.51" timestamp="2022-01-03 10:12:13"><testcase name="check login with correct username and password"/></testsuite>

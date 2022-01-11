@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="make a payment to three different client" skipped="0" tests="1" time="24.81" timestamp="2022-01-11 04:51:12"><testcase name="make a payment to three different client"><error message="Method is not implemented&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'KEMAL', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: C:\Users\kemal\OneDrive\Mas..., appPackage: com.experitest.ExperiBank, automationName: uiautomator2, avd: Pixel_3a_API_24, databaseEnabled: false, desired: {app: C:\Users\kemal\OneDrive\Mas..., automationName: uiautomator2, avd: Pixel_3a_API_24, hub: http://localhost:4723/wd/hub, loggingPrefs: {}, platformName: android, platformVersion: 7.0, udid: emulator-5554}, deviceApiLevel: 24, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, hub: http://localhost:4723/wd/hub, javascriptEnabled: true, locationContextEnabled: false, loggingPrefs: org.openqa.selenium.logging..., networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: ANDROID, platformVersion: 7.0, statBarHeight: 66, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: a90c743d-503d-46e1-ad96-731d21c417b3" type="org.openqa.selenium.UnsupportedCommandException">Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KEMAL', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\kemal\OneDrive\Mas..., appPackage: com.experitest.ExperiBank, automationName: uiautomator2, avd: Pixel_3a_API_24, databaseEnabled: false, desired: {app: C:\Users\kemal\OneDrive\Mas..., automationName: uiautomator2, avd: Pixel_3a_API_24, hub: http://localhost:4723/wd/hub, loggingPrefs: {}, platformName: android, platformVersion: 7.0, udid: emulator-5554}, deviceApiLevel: 24, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, hub: http://localhost:4723/wd/hub, javascriptEnabled: true, locationContextEnabled: false, loggingPrefs: org.openqa.selenium.logging..., networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: ANDROID, platformVersion: 7.0, statBarHeight: 66, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a90c743d-503d-46e1-ad96-731d21c417b3</error><system-err>Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KEMAL', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\kemal\OneDrive\Mas..., appPackage: com.experitest.ExperiBank, automationName: uiautomator2, avd: Pixel_3a_API_24, databaseEnabled: false, desired: {app: C:\Users\kemal\OneDrive\Mas..., automationName: uiautomator2, avd: Pixel_3a_API_24, hub: http://localhost:4723/wd/hub, loggingPrefs: {}, platformName: android, platformVersion: 7.0, udid: emulator-5554}, deviceApiLevel: 24, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2220, deviceUDID: emulator-5554, hub: http://localhost:4723/wd/hub, javascriptEnabled: true, locationContextEnabled: false, loggingPrefs: org.openqa.selenium.logging..., networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: ANDROID, platformVersion: 7.0, statBarHeight: 66, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2022, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a90c743d-503d-46e1-ad96-731d21c417b3&#13;
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)&#13;
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)&#13;
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)&#13;
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)&#13;
+tasks.Payment.performAs(Payment.java:29)&#13;
+steps.PaymentClientSteps.user_make_a_deposit_entering_payment_details(PaymentClientSteps.java:37)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:64)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:104)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:73)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)&#13;
+</system-err></testcase></testsuite>
