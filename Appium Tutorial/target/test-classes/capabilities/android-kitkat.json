@@ -1,0 +1,7 @@
+{
+  "platformName": "Android",
+  "deviceName": "kitkat",
+  "automationName": "UiAutomator2",
+  "udid": "emulator-5554",
+  "avd": "Pixel_3a_API_31_arm64-v8a"
+}
