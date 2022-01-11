@@ -11,7 +11,7 @@ import java.io.IOException;
 @CucumberOptions(
         features = "src/test/resources/features",
         //tags ="@seach_film"
-        tags ="@step1"
+        tags ="@step2"
 )
 
 public class Runner {

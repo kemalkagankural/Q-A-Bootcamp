@@ -11,7 +11,6 @@ import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import tasks.LoginToEriBank;
 import tasks.Payment;
-import ui.HomePageElements;
 
 public class PaymentClientSteps {
 
@@ -34,12 +33,13 @@ public class PaymentClientSteps {
 
     @When("User make a deposit entering payment details")
     public void user_make_a_deposit_entering_payment_details() {
-        actor.attemptsTo(Payment.type("05449076033","Kemal"));
+
 
     }
     @Then("User should check to balance")
     public void user_should_check_to_balance() {
 
     }
+
 
 }
